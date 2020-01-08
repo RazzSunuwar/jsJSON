@@ -37,3 +37,23 @@
 // }
 
 // Object as a values in JSON must be follow the same rules as JSON objects.
+
+// JSON Arrays
+// Values in JSON can be arrays.
+
+// Example
+// {
+// "employees":[ "John", "Anna", "Peter" ]
+// }
+
+// JSON Booleans
+// Values in JSON can be true/false.
+
+// Example
+// { "sale":true }
+
+// JSON null
+// Values in JSON can be null.
+
+// Example
+// { "middlename":null }
