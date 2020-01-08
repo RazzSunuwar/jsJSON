@@ -47,6 +47,15 @@
 // undefined
 // In JSON, string values must be written with double quotes:
 
+// JSON
+// {"name": "John"}
+// In JavaScript, you can write string values with double or single quotes:
+
+// JavaScript
+// {name: 'John'}
+
+
+
 
 
 
