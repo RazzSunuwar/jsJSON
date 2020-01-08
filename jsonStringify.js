@@ -18,7 +18,7 @@
 // myJSON is now a string, and ready to be sent to a server:
 
 // Example
-// var obj = { name: "John", age: 30, city: "New York" };
+// var obj = { name: "John", age: 30, city: "Ktm" };
 // var myJSON = JSON.stringify(obj);
 // document.getElementById("demo").innerHTML = myJSON;
 
@@ -45,6 +45,18 @@
 // into strings.
 
 // Example
-var obj = { name: "John", today: new Date(), city: "New York" };
-var myJSON = JSON.stringify(obj);
-document.getElementById("demo").innerHTML = myJSON;
+// var obj = { name: "John", today: new Date(), city: "Ktm" };
+// var myJSON = JSON.stringify(obj);
+// document.getElementById("demo").innerHTML = myJSON;
+
+// you can convert the string back into a date object at the receiver.
+
+// Stringify Functions
+// In JSON, functions are not allowed as object values.
+// The JSON.stringify() function will remove any functions from a JavaScript object, both the key
+// and the value:
+
+// Example
+// var obj = { name: "John", age: function () {return 30;}, city: "Ktm"};
+// var myJSON = JSON.stringify(obj);
+// document.getElementById("demo").innerHTML = myJSON;
