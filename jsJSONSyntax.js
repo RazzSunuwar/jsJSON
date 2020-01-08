@@ -54,8 +54,46 @@
 // JavaScript
 // {name: 'John'}
 
+// JSON Uses JavaScript Syntax
+// Because JSON Syntax is derived from JavaScript object notation, very little extra software is needed
+// to work with JSON within JavaScript.
 
+// with JavaScript you can create object and assign data to it, like this:
 
+// Example
+// var person = {name:"Ram", age: 10, city:"Kathmandu"};
 
+// You can access a JavaScript object like this:
+// myObj = {name:"Ram", age: 10, city:"Kathmandu"};
+// x =myObj.name;
+// document.getElementById("demo").innerHTML = x;   //returns Ram
 
+// it can be access like this:
+
+// Example
+
+// myObj = {name:"Ram", age: 10, city:"Kathmandu"};
+// x =myObj["name"];
+// document.getElementById("demo").innerHTML = x;   //returns Ram
+
+// Data can be modified like this:
+
+// Example
+// myObj = {name:"Ram", age: 10, city:"Kathmandu"};
+// x =myObj.name= "Sam";
+// document.getElementById("demo").innerHTML = x;   //returns Sam
+
+// It can also be modified like this:
+
+// Example
+// myObj = {name:"Ram", age: 10, city:"Kathmandu"};
+// x =myObj["name"]= "Sam";
+// document.getElementById("demo").innerHTML = x;   //returns Sam
+
+// JavaScript Arrays as JSON
+// The same way JavaScript objects can be used as JSON, JavaScript arrays can also be used as JSON.
+
+// JSON Files
+// The file type for JSON files is ".json"
+// The MIME type for JSON text is "application/json"
 
