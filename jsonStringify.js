@@ -60,3 +60,15 @@
 // var obj = { name: "John", age: function () {return 30;}, city: "Ktm"};
 // var myJSON = JSON.stringify(obj);
 // document.getElementById("demo").innerHTML = myJSON;
+
+// THis function can be omitted if you convert your function into strings before running
+// the JSON.stringfy() function.
+
+// Example
+// var obj = { name: "John", age: function () {return 30;}, city: "New York" };
+// obj.age = obj.age.toString();
+// var myJSON = JSON.stringify(obj);
+// document.getElementById("demo").innerHTML = myJSON;
+
+// Note: You should avoid functions in JSON, the function will lose their scope, and you would have to
+// use eval() to convert then back into functions.
